@@ -24,6 +24,7 @@ local default_config = {
   max_height = nil,
   stages = BUILTIN_STAGES.FADE_IN_SLIDE_OUT,
   render = BUILTIN_RENDERERS.DEFAULT,
+  border_style = "rounded",
   background_colour = "NotifyBackground",
   on_open = nil,
   on_close = nil,
@@ -142,6 +143,10 @@ function Config.setup(custom_config)
 
   function config.stages()
     return user_config.stages
+  end
+
+  function config.border_style()
+    return user_config.border_style
   end
 
   function config.default_timeout()

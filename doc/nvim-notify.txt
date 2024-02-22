@@ -195,6 +195,7 @@ Fields~
 {on_open} `(function)` Function called when a new window is opened, use for changing win settings/config
 {on_close} `(function)` Function called when a window is closed
 {render} `(function|string)` Function to render a notification buffer or a built-in renderer name
+{border_style} (string) How the border of the notification window looks like
 {minimum_width} `(integer)` Minimum width for notification windows
 {fps} `(integer)` Frames per second for animation stages, higher value means smoother animations but more CPU usage
 {top_down} `(boolean)` whether or not to position the notifications at the top or not
